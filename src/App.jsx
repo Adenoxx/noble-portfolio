@@ -47,14 +47,14 @@ function Navbar() {
 function Header() {
   return (
     <header
-      className="min-h-screen flex items-center gap-[5rem] sm:gap-[2rem] justify-center text-center"
+      className="min-h-screen flex items-center lg:gap-[5rem] justify-center text-center"
       id="header"
     >
       <div className="mt-10">
         <h1 className="text-5xl font-bold mb-3">Noble <span className="text-cyan-500">Udoesit</span></h1>
         <p className="text-xl mb-8">Frontend Engineer</p>
       </div>
-      <img src={profileImage} alt="Noble's face card" className="w-[117px] h-[200px] rounded-[50%]"/>
+      <img src={profileImage} alt="Noble's face card" className="w-[117px] h-[200px] rounded-[50%] mr-[45px] lg:mr-0"/>
     </header>
   );
 }
@@ -124,8 +124,8 @@ function Projects() {
       description:
         "This is a website that showcases projects I have worked on. Developed with React and tailwindcss",
       image: portfolioCard,
-      githubLink: "",
-      liveSiteLink: "",
+      githubLink: "https://github.com/Adenoxx/noble-portfolio",
+      liveSiteLink: "https://noble-portfolio.vercel.app/",
     },
     {
       title: "Huckleberry Design",
