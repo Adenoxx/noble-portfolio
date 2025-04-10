@@ -1,13 +1,12 @@
 import profileImage from "/my-faceCard.jpg";
 import githubImage from "/githubFinder.jpg";
-import ascone from "/ascone.jpg"
-import hBerry from "/hBerry.jpg"
-import scissor from "/scissor.jpg"
-import portfolioCard from "/portfolio-img.jpg"
+import ascone from "/ascone.jpg";
+import hBerry from "/hBerry.jpg";
+import scissor from "/scissor.jpg";
+import portfolioCard from "/portfolio-img.jpg";
 import { Github, Linkedin } from "lucide-react";
 
 function Navbar() {
-
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
   };
@@ -51,10 +50,16 @@ function Header() {
       id="header"
     >
       <div className="mt-10">
-        <h1 className="text-5xl font-bold mb-3">Noble <span className="text-cyan-500">Udoesit</span></h1>
+        <h1 className="text-5xl font-bold mb-3">
+          Noble <span className="text-cyan-500">Udoesit</span>
+        </h1>
         <p className="text-xl mb-8">Frontend Engineer</p>
       </div>
-      <img src={profileImage} alt="Noble's face card" className="w-[117px] h-[200px] rounded-[50%] mr-[45px] lg:mr-0"/>
+      <img
+        src={profileImage}
+        alt="Noble's face card"
+        className="w-[117px] h-[200px] rounded-[50%] mr-[45px] lg:mr-0"
+      />
     </header>
   );
 }
@@ -82,11 +87,14 @@ function About() {
       </div>
       <div className="flex justify-end ml-[1rem] p-[1rem]">
         <button className="py-[6px] px-[12px] bg-[#00ffff] rounded-md text-[#000] font-semibold border-none outline-none cursor-pointer">
-          <a href="https://drive.google.com/file/d/1N0PBZ1r074kFiF52u3gbSQuKpII_4Y-z/view?usp=drive_link"
-          target="_blank" 
-          rel="noopener noreferrer" 
-          download="Noble's CV.pdf" 
-          >My Resume</a>
+          <a
+            href="https://drive.google.com/file/d/1lP3Dq3Bso73yMONqdOKuiU401cTdRzUm/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Noble's CV.pdf"
+          >
+            My Resume
+          </a>
         </button>
       </div>
     </section>
@@ -137,8 +145,7 @@ function Projects() {
     },
     {
       title: "Scissor Project",
-      description:
-        "A desktop view landing page built with HTML and CSS",
+      description: "A desktop view landing page built with HTML and CSS",
       image: scissor,
       githubLink: "https://github.com/Adenoxx/AltSchool_FirstSemesterProject",
       liveSiteLink: "https://alt-school-first-semester-project-two.vercel.app/",
