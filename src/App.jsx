@@ -82,7 +82,7 @@ function About() {
         </p>
         <p className="text-lg">
           When I am not coding I like to interact with nature, bond with family
-          and friends, netflix and chill.
+          and friends.
         </p>
       </div>
       <div className="flex justify-end ml-[1rem] p-[1rem]">
