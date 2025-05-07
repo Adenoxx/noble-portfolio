@@ -208,7 +208,7 @@ function Contact() {
             href="mailto:youremail@example.com"
             className="text-blue-500 hover:underline"
           >
-            noblenoble2014@gmail.com
+            nobleudoesit@gmail.com
           </a>
         </p>
       </div>
