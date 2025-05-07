@@ -72,7 +72,7 @@ function About() {
         <p className="text-lg text-left">
           I am a frontend developer passionate about enhancing everyday life
           through user-friendly, accessible applications. With a strong
-          foundation in HTML, CSS and JavaScript, I create intuitive, effective
+          foundation in HTML, CSS, JavaScript and React, I create intuitive, effective
           solutions that bring ease and efficiency to people daily routines.
         </p>
         <p className="text-lg text-left">
